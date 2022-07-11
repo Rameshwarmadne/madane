@@ -29,6 +29,7 @@ public class SwitchTo {
 		driver.switchTo().window(ar.get(1));
 		driver.findElement(By.xpath("//input[@name='projectName']")).sendKeys("zattupat");
 		Thread.sleep(4000);
+		
 		driver.findElement(By.xpath("//input[@onclick='createTasks();']")).click();
 		driver.switchTo().window(ar.get(0));
 		Thread.sleep(4000);
