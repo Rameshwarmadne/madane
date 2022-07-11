@@ -1,57 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-06-14T22:34:51 IST" name="Default suite" finished-at="2022-06-14T22:34:51 IST" duration-ms="128">
+  <suite started-at="2022-07-03T01:28:45 IST" name="Multipl" finished-at="2022-07-03T01:29:08 IST" duration-ms="23038">
     <groups>
     </groups>
-    <test started-at="2022-06-14T22:34:51 IST" name="Default test" finished-at="2022-06-14T22:34:51 IST" duration-ms="128">
-      <class name="testngflags.abc">
-        <test-method signature="validLogin(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testngflags.abc@747edf66]" started-at="2022-06-14T22:34:51 IST" name="validLogin" finished-at="2022-06-14T22:34:51 IST" duration-ms="0" status="FAIL">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'browser' is required by @Test on method validLogin but has not been marked @Optional or defined
-in C:\Users\Madane\AppData\Local\Temp\testng-eclipse-1566050235\testng-customsuite.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'browser' is required by @Test on method validLogin but has not been marked @Optional or defined
-in C:\Users\Madane\AppData\Local\Temp\testng-eclipse-1566050235\testng-customsuite.xml
-at org.testng.internal.Parameters.createParams(Parameters.java:270)
-at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
-at org.testng.internal.Parameters.createParameters(Parameters.java:700)
-at org.testng.internal.Parameters.handleParameters(Parameters.java:884)
-at org.testng.internal.Parameters.handleParameters(Parameters.java:740)
-at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:59)
-at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:38)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:791)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
+    <test started-at="2022-07-03T01:28:45 IST" name="Chrome_Test" finished-at="2022-07-03T01:28:55 IST" duration-ms="9126">
+      <class name="multipleBrowsing.MultipleBrowsing1">
+        <test-method signature="TC1(java.lang.String)[pri:0, instance:multipleBrowsing.MultipleBrowsing1@2cd2a21f]" started-at="2022-07-03T01:28:46 IST" name="TC1" finished-at="2022-07-03T01:28:55 IST" duration-ms="9036" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validLogin -->
-      </class> <!-- testngflags.abc -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- TC1 -->
+      </class> <!-- multipleBrowsing.MultipleBrowsing1 -->
+    </test> <!-- Chrome_Test -->
+    <test started-at="2022-07-03T01:28:55 IST" name="firefox_Test" finished-at="2022-07-03T01:29:08 IST" duration-ms="13791">
+      <class name="multipleBrowsing.MultipleBrowsing1">
+        <test-method signature="TC1(java.lang.String)[pri:0, instance:multipleBrowsing.MultipleBrowsing1@fa49800]" started-at="2022-07-03T01:28:55 IST" name="TC1" finished-at="2022-07-03T01:29:08 IST" duration-ms="13784" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC1 -->
+      </class> <!-- multipleBrowsing.MultipleBrowsing1 -->
+    </test> <!-- firefox_Test -->
+  </suite> <!-- Multipl -->
 </testng-results>

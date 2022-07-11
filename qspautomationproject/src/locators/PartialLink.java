@@ -10,6 +10,7 @@ public class PartialLink {
 		WebDriver d=new ChromeDriver();
 		d.manage().window().maximize();
 		d.get("https://www.netflix.com/in/login");
+	      
 		d.findElement(By.partialLinkText("login-remember")).click();
 		Thread.sleep(6000);
 		d.close();

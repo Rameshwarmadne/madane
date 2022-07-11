@@ -12,7 +12,7 @@ import org.apache.poi.ss.usermodel.WorkbookFactory;
 
 public class File1{
 	
-	// Read the data from flie
+	// Read the data from file
 	public String ReadExcelData(String ExcelPath,String SheetName,int RowCount,int CellCount) throws EncryptedDocumentException, IOException
 	{
 		FileInputStream fis = new FileInputStream(ExcelPath);
@@ -24,7 +24,7 @@ public class File1{
 	         // return data;
 			return data;
 	}
-	//get the rowcount
+	//get the row count
 
 	public int getRowCount(String excelPath,String sheetName) throws EncryptedDocumentException, IOException
 	{

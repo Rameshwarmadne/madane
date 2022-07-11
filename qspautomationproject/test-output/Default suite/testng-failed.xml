@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testngflags.abc">
+      <class name="multipleBrowsing.MultipleBrowsing1">
         <methods>
-          <include name="validLogin"/>
+          <include name="TC1"/>
         </methods>
-      </class> <!-- testngflags.abc -->
+      </class> <!-- multipleBrowsing.MultipleBrowsing1 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

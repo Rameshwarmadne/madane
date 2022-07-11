@@ -1,4 +1,4 @@
-package getscreenShotm;
+ package getscreenShotm;
 
 import java.io.File;
 import java.io.IOException;
@@ -20,7 +20,7 @@ public static void main(String[] args) throws IOException {
      	//by using remote webDriver methods;
 	RemoteWebDriver rw=(RemoteWebDriver)d;
 	File sr=rw.getScreenshotAs(OutputType.FILE);
-	File des = new File("C:\\Users\\Madane\\OneDrive\\Desktop\\WCSM7 SELENIUM\\getscreenshot\\xyz1.png");
+	File des = new File("C:\\Users\\Madane\\OneDrive\\Desktop\\WCSM7 SELENIUM\\getscreenshot\\xyz2.png");
 
 	Files.copy(sr, des);
 	d.close();

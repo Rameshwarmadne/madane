@@ -1,4 +1,4 @@
-package POM1;
+package pageobjectmodel;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -27,7 +27,10 @@ public class lOGINpAGE {
 	{
 		pas.sendKeys("manager");
 	}
-	
+	public void ClickToLogin()
+	{
+		login.click();
+	}
 	
 	
 	
